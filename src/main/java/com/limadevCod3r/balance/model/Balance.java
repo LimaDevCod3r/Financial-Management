@@ -23,7 +23,6 @@ public class Balance {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     @EqualsAndHashCode.Include
-
     private String id;
 
     @Column(name = "balance_description", length = 150, nullable = false)
